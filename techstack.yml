@@ -2,7 +2,7 @@ repo_name: ramzimalhas/Memento
 report_id: 9d5aac7c962f9426a1180fd19a8f10f3
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-23T06:56:44+00:00'
+timestamp: '2024-02-29T19:33:06+00:00'
 requested_by: apirrone
 provider: github
 branch: main
@@ -162,6 +162,12 @@ tools:
     detected_date: Dec 8
     severity: high
     first_patched: 0.0.329
+  - name: langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2024-0243
+    cve_url: https://github.com/advisories/GHSA-h9j7-5xvc-qhg5
+    detected_date: Feb 27
+    severity: low
+    first_patched: 0.1.0
 - name: mss
   description: An ultra fast cross-platform multiple screenshots module in pure python
     using ctypes
