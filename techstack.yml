@@ -1,0 +1,240 @@
+repo_name: ramzimalhas/Memento
+report_id: 9d5aac7c962f9426a1180fd19a8f10f3
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:33:06+00:00'
+requested_by: apirrone
+provider: github
+branch: main
+detected_tools_count: 16
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ramzimalhas/Memento
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ramzimalhas/Memento
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: apirrone
+  last_updated_on: 2023-07-29 14:37:21.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.0.325
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-04 14:07:02.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.25.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: apirrone
+  last_updated_on: 2023-07-29 14:37:21.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: apirrone
+  last_updated_on: 2023-07-29 14:37:21.000000000 Z
+- name: pygame
+  description: Open Source python programming language library for making multimedia
+    applications
+  website_url: https://www.pygame.org/news
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Desktop Development
+  image_url: https://img.stackshare.io/service/6512/default_1e1ae07154b9f359c410f3f24ba3c96c1be21cdf.jpg
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: apirrone
+  last_updated_on: 2023-09-07 19:20:58.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  package_url: https://pypi.org/project/Pillow
+  version: 10.0.1
+  license: HPND
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19844/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-05 12:24:16.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary Code Execution in Pillow
+    cve_id: CVE-2023-50447
+    cve_url: https://github.com/advisories/GHSA-3f63-hfp8-52jq
+    detected_date: Jan 23
+    severity: high
+    first_patched: 10.2.0
+- name: av
+  description: Pythonic bindings for FFmpeg's libraries
+  package_url: https://pypi.org/project/av
+  version: 10.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: apirrone
+  last_updated_on: 2023-07-29 14:37:21.000000000 Z
+- name: chromadb
+  description: Chroma
+  package_url: https://pypi.org/project/chromadb
+  version: 0.4.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: apirrone
+  last_updated_on: 2023-09-07 19:43:12.000000000 Z
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  version: 0.0.325
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-04 14:07:02.000000000 Z
+  vulnerabilities:
+  - name: Langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2023-32786
+    cve_url: https://github.com/advisories/GHSA-6h8p-4hx9-w66c
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.329
+  - name: langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2024-0243
+    cve_url: https://github.com/advisories/GHSA-h9j7-5xvc-qhg5
+    detected_date: Feb 27
+    severity: low
+    first_patched: 0.1.0
+- name: mss
+  description: An ultra fast cross-platform multiple screenshots module in pure python
+    using ctypes
+  package_url: https://pypi.org/project/mss
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: apirrone
+  last_updated_on: 2023-07-29 14:37:21.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: apirrone
+  last_updated_on: 2023-08-06 19:31:44.000000000 Z
+- name: pyperclip
+  description: A cross-platform clipboard module for Python
+  package_url: https://pypi.org/project/pyperclip
+  version: 1.8.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: apirrone
+  last_updated_on: 2023-09-07 19:43:12.000000000 Z
+- name: python-Levenshtein
+  description: Python extension for computing string edit distances and similarities
+  package_url: https://pypi.org/project/python-Levenshtein
+  version: 0.21.1
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20140/default_927321425328d95d5d3f0c8b9fe47f1a2cffb5bf.png
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: apirrone
+  last_updated_on: 2023-09-07 19:37:13.000000000 Z
+- name: xlib
+  description: Python X Library
+  package_url: https://pypi.org/project/xlib
+  version: '0.21'
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/Memento/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: apirrone
+  last_updated_on: 2023-07-30 10:47:05.000000000 Z
